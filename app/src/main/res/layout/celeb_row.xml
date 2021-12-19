@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llRow"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/bottom_bar"
+        android:backgroundTint="#9FFAEDED"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/divider_horizontal_dim_dark"
+            android:backgroundTint="#201B1B"
+            android:fontFamily="@font/dhurjati"
+            android:text="TextView"
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvHint1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/dhurjati"
+            android:paddingStart="7dp"
+            android:text="TextView"
+            android:textAlignment="viewStart"
+            app:autoSizeTextType="uniform" />
+
+        <TextView
+            android:id="@+id/tvHint2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/dhurjati"
+            android:paddingStart="7dp"
+            android:text="TextView"
+            android:textAlignment="viewStart" />
+
+        <TextView
+            android:id="@+id/tvHint3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/dhurjati"
+            android:paddingStart="7dp"
+            android:text="TextView"
+            android:textAlignment="viewStart" />
+    </LinearLayout>
+
+</LinearLayout>
